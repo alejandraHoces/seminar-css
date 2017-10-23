@@ -41,11 +41,36 @@ nav {
   transform: translate(-50);
 }
 
+img[alt="laboratoria"] {
+  width:130px;
+}
+
+logo-header {
+  width: 200px;
+}
+
+button {
+  background-color: #f9a91a;
+  padding: 10px;
+  border: 0;
+  color: rgb(255,255, 255);
+  border-radius: 5px;
+  font-weight: 600;
+}
 section {
   text-align: center;
+
 }
 
 div {
   display: inline-block;
   width: 33%;
+}
+
+span {
+  font-size: 60px;
+}
+
+body section:last-child {
+    margin-top: 30px;
 }
