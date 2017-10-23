@@ -1,0 +1,51 @@
+/*setear*/
+body {
+  box-sizing: border-box;
+  color:#303030;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*clase reutilizable*/
+.text-uppercase{
+  text-transform: uppercase;
+}
+
+.box-header {
+  display: inline-block;
+}
+
+.logo-header {
+  width: 200px;
+}
+
+li {
+  display: inline;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  right: 5%;
+  top:25%;
+  transform: translate(-50);
+}
+
+section {
+  text-align: center;
+}
+
+div {
+  display: inline-block;
+  width: 33%;
+}
